@@ -1,0 +1,101 @@
+2024-05-22 18:51:38,462 — logger — ERROR — get_exercise:30 — Такое занятие не найдено
+2024-05-22 18:52:13,110 — logger — ERROR — get_exercise:30 — Такое занятие не найдено
+2024-05-22 18:53:27,162 — logger — ERROR — add_exercise:55 — {'ExerciseName2': 'Математика', 'Classroom': 325}
+ 'ExerciseName' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:06:46,299 — logger — ERROR — add_exercise:74 — Такое занятие в этом кабинете уже есть
+2024-05-22 19:06:52,169 — logger — ERROR — add_exercise:63 — {'ExerciseName2': 'Математика', 'Classroom': 320}
+ 'ExerciseName' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:10:59,256 — logger — ERROR — add_exercise:75 — {'ExerciseName': 'Математика', 'Classroom': 320}
+ Такое занятие в этом кабинете уже есть
+2024-05-22 19:13:57,698 — logger — ERROR — get_exercise:39 — {'ExerciseName': 'Математика', 'Classroom': 320}
+ Такое занятие не найдено
+2024-05-22 19:15:08,407 — logger — ERROR — get_exercise:37 — Такое занятие не найдено
+2024-05-22 19:26:54,547 — logger — ERROR — get_exercise:37 — Такое занятие не найдено
+2024-05-22 19:27:06,772 — logger — ERROR — get_exercise:37 — Такое занятие не найдено
+2024-05-22 19:27:48,043 — logger — ERROR — get_exercise:37 — Такое занятие не найдено
+2024-05-22 19:30:55,583 — logger — ERROR — add_exercise:74 — {'ExerciseName': 'Английский язык', 'Classroom': 112}
+ Такое занятие в этом кабинете уже есть
+2024-05-22 19:31:51,659 — logger — ERROR — add_exercise:62 — {'ExerciseName2': 'Английский язык', 'Classroom': 112}
+ 'ExerciseName' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:32:24,501 — logger — ERROR — add_exercise:62 — {'ExerciseName': 'Английский язык', 'Classroom': '112'}
+ '112' is not of type 'integer'
+ {'type': 'integer', 'minimum': 100, 'maximum': 325}
+2024-05-22 19:32:33,409 — logger — ERROR — add_exercise:62 — {'ExerciseName': 1124, 'Classroom': 112}
+ 1124 is not of type 'string'
+ {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}
+2024-05-22 19:32:39,061 — logger — ERROR — add_exercise:62 — {'ExerciseName': '1124', 'Classroom': 112}
+ '1124' does not match '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'
+ {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}
+2024-05-22 19:32:43,958 — logger — ERROR — add_exercise:62 — {'ExerciseName2': '1124', 'Classroom': 112}
+ 'ExerciseName' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:32:55,989 — logger — ERROR — add_exercise:62 — {'ExerciseName': 'Английский язык', 'Classroom2': 112}
+ 'Classroom' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:36:03,704 — logger — ERROR — delete_exercise:93 — Такое занятие не найдено
+2024-05-22 19:37:50,583 — logger — ERROR — update_exercise:119 — Такое занятие не найдено
+2024-05-22 19:38:32,325 — logger — ERROR — update_exercise:119 — Такое занятие не найдено
+2024-05-22 19:38:38,107 — logger — ERROR — update_exercise:143 — {'ExerciseName': '12321414215', 'Classroom': 112}
+ '12321414215' does not match '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'
+ {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}
+2024-05-22 19:38:45,236 — logger — ERROR — update_exercise:143 — {'ExerciseName2': 'Окружающий мир', 'Classroom': 112}
+ 'ExerciseName' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:38:59,031 — logger — ERROR — update_exercise:143 — {'ExerciseName': 'Окружающий мир', 'Classroom2': '112'}
+ 'Classroom' is a required property
+ {'type': 'object', 'properties': {'ExerciseName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}, 'Classroom': {'type': 'integer', 'minimum': 100, 'maximum': 325}}, 'required': ['ExerciseName', 'Classroom']}
+2024-05-22 19:39:02,844 — logger — ERROR — update_exercise:143 — {'ExerciseName': 'Окружающий мир', 'Classroom': '112'}
+ '112' is not of type 'integer'
+ {'type': 'integer', 'minimum': 100, 'maximum': 325}
+2024-05-22 19:40:01,127 — logger — ERROR — update_exercise:143 — {'ExerciseName': 'Русский язык', 'Classroom': '112'}
+ '112' is not of type 'integer'
+ {'type': 'integer', 'minimum': 100, 'maximum': 325}
+2024-05-22 19:40:14,914 — logger — ERROR — update_exercise:131 — {'ExerciseName': 'Русский язык', 'Classroom': 101}
+ Такое занятие в этом кабинете уже есть
+2024-05-22 19:44:06,365 — logger — ERROR — get_dayofweek:37 — Такой день недели не найден
+2024-05-22 19:45:54,443 — logger — ERROR — delete_exercise:93 — Такое занятие не найдено
+2024-05-22 19:46:59,338 — logger — ERROR — delete_dayofweek:56 — Такой день недели не найден
+2024-05-22 19:48:54,341 — logger — ERROR — add_dayofweek:79 — {'DayofweekName2': 'Пятница'}
+ 'DayofweekName' is a required property
+ {'type': 'object', 'properties': {'DayofweekName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}}, 'required': ['DayofweekName']}
+2024-05-22 19:51:02,537 — logger — ERROR — update_dayofweek:115 — {'DayofweekName2': 'Пятница'}
+ 'DayofweekName' is a required property
+ {'type': 'object', 'properties': {'DayofweekName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}}, 'required': ['DayofweekName']}
+2024-05-22 19:51:13,163 — logger — ERROR — update_dayofweek:138 — {'DayofweekName': 'Пятница'}
+ Такой день недели уже есть
+2024-05-22 19:51:37,062 — logger — ERROR — update_dayofweek:127 — Такой день недели не найден
+2024-05-22 19:51:50,890 — logger — ERROR — update_dayofweek:139 — {'DayofweekName': 'Пятница'}
+ Такой день недели уже есть
+2024-05-22 19:51:58,893 — logger — ERROR — update_dayofweek:139 — {'DayofweekName': 'Пятница'}
+ Такой день недели уже есть
+2024-05-22 19:52:03,275 — logger — ERROR — update_dayofweek:116 — {'DayofweekName2': 'Пятница'}
+ 'DayofweekName' is a required property
+ {'type': 'object', 'properties': {'DayofweekName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}}, 'required': ['DayofweekName']}
+2024-05-22 19:52:10,243 — logger — ERROR — update_dayofweek:116 — {'DayofweekName': 1231415}
+ 1231415 is not of type 'string'
+ {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}
+2024-05-22 20:07:00,782 — logger — ERROR — add_dayofweek_exercises:122 — Такое занятие не найдено
+2024-05-22 20:07:25,484 — logger — ERROR — add_dayofweek_exercises:111 — Такой день недели не найден
+2024-05-22 20:07:30,040 — logger — ERROR — add_dayofweek_exercises:111 — Такой день недели не найден
+2024-05-22 20:07:59,313 — logger — ERROR — get_dayofweek_exercises:42 — Такой день недели не найден
+2024-05-22 20:08:12,556 — logger — ERROR — get_dayofweek_exercise:68 — Такой день недели не найден
+2024-05-22 20:10:42,778 — logger — ERROR — get_dayofweek_exercises:42 — Такой день недели не найден
+2024-05-22 20:10:47,293 — logger — ERROR — get_dayofweek_exercise:79 — Такое занятие не найдено
+2024-05-22 20:10:54,510 — logger — ERROR — get_dayofweek_exercise:68 — Такой день недели не найден
+2024-05-22 20:11:31,355 — logger — ERROR — add_dayofweek_exercises:133 — Нельзя добавить больше 8 уроков в день
+2024-05-22 20:11:45,618 — logger — ERROR — add_dayofweek_exercises:111 — Такой день недели не найден
+2024-05-22 20:11:50,529 — logger — ERROR — add_dayofweek_exercises:122 — Такое занятие не найдено
+2024-05-22 20:12:57,418 — logger — ERROR — delete_dayofweek_exercise:154 — Такой день недели не найден
+2024-05-22 20:13:12,623 — logger — ERROR — delete_dayofweek_exercise:165 — Такое занятие не найдено
+2024-05-22 20:13:22,980 — logger — ERROR — delete_dayofweek_exercise:165 — Такое занятие не найдено
+2024-05-22 20:34:38,563 — logger — ERROR — delete_dayofweek:56 — Такой день недели не найден
+2024-05-22 20:49:37,638 — logger — ERROR — delete_dayofweek_exercise:165 — Такое занятие не найдено
+2024-05-22 22:00:57,808 — logger — ERROR — add_dayofweek:79 — {'DayofweekName2': 'Вторник'}
+ 'DayofweekName' is a required property
+ {'type': 'object', 'properties': {'DayofweekName': {'type': 'string', 'pattern': '^[^0-9!@#$%^&*(),.?":{}|<>_]+$'}}, 'required': ['DayofweekName']}
+2024-05-22 22:26:27,617 — logger — ERROR — get_dayofweek_exercise:69 — Такой день недели не найден
+2024-05-22 22:33:57,338 — logger — ERROR — get_dayofweek_exercise:92 — Занятия с таким id нет у этого дня
+2024-05-22 22:37:33,167 — logger — ERROR — delete_dayofweek_exercise:191 — Занятия с таким id нет у этого дня
