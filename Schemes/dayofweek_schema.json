@@ -1,0 +1,7 @@
+{
+    "type": "object",
+    "properties": {
+        "DayofweekName": {"type": "string", "pattern": "^[^0-9!@#$%^&*(),.?\":{}|<>_]+$"}
+    },
+    "required": ["DayofweekName"]
+}

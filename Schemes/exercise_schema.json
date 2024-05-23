@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "ExerciseName": {"type": "string", "pattern": "^[^0-9!@#$%^&*(),.?\":{}|<>_]+$"},
+        "Classroom": {
+            "type": "integer",
+            "minimum": 100,
+            "maximum": 325
+        }
+    },
+    "required": ["ExerciseName", "Classroom"]
+}
